@@ -3,12 +3,11 @@ package lightclient
 import (
 	"context"
 
-	"github.com/prysmaticlabs/prysm/v5/consensus-types/primitives"
-
 	"github.com/prysmaticlabs/prysm/v5/api/server/structs"
 	lightclient "github.com/prysmaticlabs/prysm/v5/beacon-chain/core/light-client"
 	"github.com/prysmaticlabs/prysm/v5/beacon-chain/state"
 	"github.com/prysmaticlabs/prysm/v5/consensus-types/interfaces"
+	"github.com/prysmaticlabs/prysm/v5/consensus-types/primitives"
 )
 
 func newLightClientFinalityUpdateFromBeaconState(

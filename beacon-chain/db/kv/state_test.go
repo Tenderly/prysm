@@ -5,7 +5,6 @@ import (
 	"crypto/rand"
 	"encoding/binary"
 	mathRand "math/rand"
-
 	"strconv"
 	"testing"
 	"time"
